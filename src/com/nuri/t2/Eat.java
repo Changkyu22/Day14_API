@@ -8,7 +8,7 @@ public class Eat implements Runnable{
 		this.lunch();
 	}
 	
-	public void lunch() {
+	public synchronized void lunch() {
 		
 		for(int i=0; i<10; i++) {
 			
